@@ -1,0 +1,196 @@
+/* General */
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colorized-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* Headings */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.img-col {
+  position: relative;
+}
+
+.phone-image {
+  width: 50%;
+  position: absolute;
+  transform: rotate(20deg);
+  right: 100px;
+  z-index: 1;
+}
+
+/* Features Section */
+
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.feature-icon {
+  color: #cf8172;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-titles {
+  font-size: 1.5rem;
+}
+
+#features p {
+  padding: 0 20%;
+}
+
+/* Testimonials Section */
+
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  margin: 20px;
+
+  width: 10%;
+  border-radius: 100%;
+}
+
+#testimonials.colorized-section, #press.colorized-section {
+  background-color: #ef8172;
+}
+
+/* Press Section */
+
+.press-logo {
+    width: 13%;
+    margin: 30px 30px 50px;
+}
+
+/* Princing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.holder {
+    color: white;
+}
+
+/* cta Section */
+
+/* Footer */
+
+#footer .container-fluid {
+  padding: 3% 15%;
+}
+
+.social-icons {
+  font-size: 30px;
+  margin: 0 15px 20px;
+}
+
+.social-icons:hover {
+  color: #656565;
+}
+
+/* Queries */
+
+@media (max-width: 1155px) {
+  .phone-image {
+    width: 60%;
+    transform: rotate(0);
+    margin-left: 400px;
+  }
+}
+
+@media (max-width: 990px) {
+  .phone-image {
+    position: static;
+    margin-left: 0;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
