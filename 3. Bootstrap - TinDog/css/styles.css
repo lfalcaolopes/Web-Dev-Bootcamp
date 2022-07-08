@@ -184,6 +184,48 @@ p {
   }
 }
 
+@media (max-width: 450px) {
+  #title .container-fluid {
+    padding: 7% 5%;
+  }
+
+  .container-fluid {
+    padding: 17% 5%;
+  }
+
+  .big-heading {
+    font-size: 3rem;
+  }
+
+  .phone-image {
+    position: static;
+    margin-left: 0;
+    margin-top: 100px;
+    width: 70%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  #pricing {
+    padding: 50px;
+}
+
+.press-logo {
+  width: 40%;
+  margin: 30px 15px 50px;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+}
+
+.testimonial-img {
+  width: 30%;
+  border-radius: 100%;
+}
+}
 
 
 
