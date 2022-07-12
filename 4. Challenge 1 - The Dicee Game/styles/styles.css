@@ -1,0 +1,44 @@
+/* General */
+
+body {
+    background-color: #393E46;
+    font-family: 'Lobster Two', cursive;
+}
+
+h1, h3 {
+    color: #4ECCA3;
+}
+
+.container {
+    text-align: center;
+    margin: 5% auto;
+}
+
+/* title */
+
+#title {
+    font-size: 4rem;
+}
+
+/* game */
+
+#game {
+    font-size: 2.5rem;
+}
+
+.player {
+    display: inline-block;
+    margin: 0 3%;
+}
+
+/* footer */
+
+#footer {
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+#footer.container {
+    margin: 5% auto 0 auto;
+}
