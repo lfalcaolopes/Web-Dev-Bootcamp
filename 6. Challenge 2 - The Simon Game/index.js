@@ -22,17 +22,16 @@ function makeSound(classes) {
 }
 
 function buttonSequenceAnimation(entry) {
-    for (let i = 0; i < entry.length; i++) {
+
         setTimeout(function() {
-            $(`.${entry[i]}`).addClass("clicked")
+            $(`.${entry[entry.length - 1]}`).addClass("clicked")
     
         setTimeout(function() { 
-            $(`.${entry[i]}`).removeClass("clicked")
+            $(`.${entry[entry.length - 1]}`).removeClass("clicked")
         }, 50);
 
-        makeSound(entry[i])
-        }, 700 * (i + 1))   
-    }
+        makeSound(entry[entry.length - 1])
+        }, 700)   
 }
 
 function game(){  
